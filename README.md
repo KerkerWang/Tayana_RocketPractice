@@ -15,20 +15,20 @@
 - 新增、修改、刪除各類數據
 
 ## 畫面
-### 討論區
-<div><img width="50% alt="討論區" src="https://github.com/user-attachments/assets/fbfb985d-8d83-4e3e-8d74-9dc8cdd9768a"/></div>
+### 遊艇介紹
+<div><img width="50% alt="遊艇介紹" src="https://github.com/user-attachments/assets/077adf71-368a-4d81-81e4-62e5a00d4f0c"/></div>
 
 ### 聯絡我們  
-<div><img width="50% alt="聯絡我們" src="https://github.com/user-attachments/assets/01fac329-bc53-4f31-b1ec-6b0e198f16f0"/></div>
+<div><img width="50% alt="聯絡我們" src="https://github.com/user-attachments/assets/b1563798-7c10-4f97-af08-9dabf40af647"/></div>
 
-### 後台編輯頁面
-<div><img width="50% alt="後台編輯頁面" src="https://github.com/user-attachments/assets/aa909483-1467-433e-a6f4-5d1e32e97a92"/></div>
+### 後台管理頁面
+<div><img width="50% alt="後台管理頁面" src="https://github.com/user-attachments/assets/125f6039-3a2c-4a0d-a346-ae7f4c8c49c8"/></div>
 
 ## 技術與工具介紹
 
 ### 開發環境
 - 框架：.NET Framework 4.8
-- 專案類型：ASP.NET MVC 5
+- 專案類型：ASP.NET Web Form
 ### 技術使用
 <div>
 <img alt="Visual_Studio" src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" />
@@ -37,8 +37,7 @@
 <img alt="SQL" src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" />
 <div/>
 <div>  
-<img alt="Entity_Framework" src="https://img.shields.io/badge/Entity_Framework-yellow?style=for-the-badge">
-<img alt="LINQ" src="https://img.shields.io/badge/LINQ-8A2BE2?style=for-the-badge">
+<img alt="ADO.NET" src="https://img.shields.io/badge/ADO.NET-yellow?style=for-the-badge">
 <img alt="JQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white">
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
 </div>
