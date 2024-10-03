@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Tayana.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TayanaWorld (DEMO)</title>
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.cycle.all.2.74.js"></script>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderCss" runat="server"></asp:ContentPlaceHolder>
+<%--    <link href="css/style.css?v=042901" rel="stylesheet" type="text/css" />--%>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="contain">
+            <div class="sub">
+                <p><a href="Home.aspx">Home</a></p>
+            </div>
+            <!--------------------------------選單開始---------------------------------------------------->
+            <%--            <div id="logol"><a href="index.aspx"><img src="/images/logo001.gif" alt="Tayana"/></a></div>--%>
+            <div class="menu">
+                <ul>
+                    <li class="menuli01"><a href="Yachts.aspx">
+                        <img src="images/mmmmeeeee.gif" alt="&quot;&quot;" />Yachts</a></li>
+                    <li class="menuli02"><a href="News.aspx">
+                        <img src="images/mmmmeeeee.gif" alt="&quot;&quot;" />NEWS</a></li>
+                    <li class="menuli03"><a href="Company.aspx">
+                        <img src="images/mmmmeeeee.gif" alt="&quot;&quot;" />COMPANY</a></li>
+                    <li class="menuli04"><a href="Dealers.aspx">
+                        <img src="images/mmmmeeeee.gif" alt="&quot;&quot;" />DEALERS</a></li>
+                    <li class="menuli05"><a href="Contact.aspx">
+                        <img src="images/mmmmeeeee.gif" alt="&quot;&quot;" />CONTACT</a></li>
+                </ul>
+            </div>
+            <!--------------------------------選單開始結束---------------------------------------------------->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderBackGroundImg" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderOnlyForIndex" runat="server"></asp:ContentPlaceHolder>
+            <div class="conbg">
+                <!--------------------------------左邊選單開始---------------------------------------------------->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderLeft" runat="server"></asp:ContentPlaceHolder>
+
+                <!--------------------------------左邊選單結束---------------------------------------------------->
+                <!--------------------------------右邊選單開始---------------------------------------------------->
+                <div id="crumb">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderRoute" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div class="right">
+                    <div class="right1">
+                        <div class="title">
+                            <span>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolderTitle" runat="server"></asp:ContentPlaceHolder>
+                            </span>
+                        </div>
+                        <!--------------------------------內容開始---------------------------------------------------->
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server"></asp:ContentPlaceHolder>
+                        <!--------------------------------內容結束------------------------------------------------------>
+                    </div>
+                </div>
+                <!--------------------------------右邊選單結束---------------------------------------------------->
+            </div>
+            <!--------------------------------落款開始---------------------------------------------------->
+            <div class="footer">
+                <div class="footerp00">
+                    <a href="#">
+                        <img src="images/tog.jpg" alt="&quot;&quot;" /></a>
+                    <p class="footerp001">© 1973-2011 Tayana Yachts, Inc. All Rights Reserved</p>
+                </div>
+                <div class="footer01">
+                    <span>No. 60, Hai Chien Road, Chung Men Li, Lin Yuan District, Kaohsiung City, Taiwan, R.O.C.</span><br />
+                    <span>TEL：+886(7)641-2721</span> <span>FAX：+886(7)642-3193</span><span><a href="mailto:tayangco@ms15.hinet.net">E-mail：tayangco@ms15.hinet.net</a>.</span>
+                </div>
+            </div>
+            <!--------------------------------落款結束---------------------------------------------------->
+        </div>
+    </form>
+</body>
+</html>
