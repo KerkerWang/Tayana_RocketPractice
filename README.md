@@ -8,11 +8,12 @@
 系統提供兩種角色，分別對應不同的功能操作。  
 ### 一般使用者
 - 瀏覽網站內容
-- 填寫表單通知網站管理者
+- 提交表單通知網站管理者
 
 ### 後台管理者
 - 編輯與管理網站內容
 - 新增、修改、刪除各類數據
+- 透過郵件接收使用者提交的表單內容
 
 ## 畫面
 ### 遊艇介紹
@@ -43,8 +44,8 @@
 </div>
 <br/>
 
-- 區域路由：透過 Areas 建立後台模組，並實現前台與後台的會員權限分離
-- 資料庫存取：Microsoft SQL Server 搭配 Entity Framework Code First 以及 LINQ 進行資料庫存取
-- 權限控管：透過自定義篩選器（Custom Filter）實現對特定 Controller 的權限管理 
-- 遞迴函式：使用遞迴函式自動生成 Navbar 與 Sidebar
+- 資料庫存取：使用 Microsoft SQL Server 搭配 ADO.NET 以及 SQL 進行資料庫存取
+- 資料呈現：利用 GridView 和 Repeater 控制項來動態呈現資料
+- 自定義內容排版：透過 CKEditor 作為內容編輯器，讓管理者進行內容的自定義編輯與排版
+- 郵件通知：使用 Google 的 SMTP 服務，自動發送通知給管理者
 
